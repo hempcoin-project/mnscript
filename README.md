@@ -4,7 +4,7 @@ Shell script to install a [Rupaya Masternode](http://www.rupx.io/) on a Linux se
 ***
 ## Installation:
 ```
-wget -q https://github.com/rupaya-project/mn-script/blob/master/rupaya_install.sh
+wget -q https://raw.github.com/rupaya-project/mn-script/blob/master/rupaya_install.sh
 bash rupaya_install.sh
 ```
 ***

@@ -130,6 +130,7 @@ listen=1
 server=1
 daemon=1
 addnode=dns.rupx.io
+addnode=rupx.seeds.mn.zone
 port=$COIN_PORT
 EOF
 }

@@ -5,7 +5,7 @@ CONFIG_FILE='rupaya.conf'
 CONFIGFOLDER='/root/.rupaya'
 COIN_DAEMON='/usr/local/bin/rupayad'
 COIN_CLI='/usr/local/bin/rupaya-cli'
-COIN_REPO='https://github.com/rupaya-project/rupaya/releases/download/v4.0.0.0/rupaya-4.0.0-x86_64-linux.tar.gz'
+COIN_REPO='https://github.com/rupaya-project/rupaya/releases/download/v.4.1.0/rupaya-4.1.0-x86_64-linux.tar.gz'
 COIN_NAME='Rupaya'
 COIN_PORT=9020
 

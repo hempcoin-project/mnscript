@@ -1,13 +1,13 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='rupaya.conf'
-CONFIGFOLDER='/root/.rupaya'
-COIN_DAEMON='/usr/local/bin/rupayad'
-COIN_CLI='/usr/local/bin/rupaya-cli'
-COIN_REPO='https://github.com/rupaya-project/rupaya/releases/download/v.4.1.0/rupaya-4.1.0-x86_64-linux.tar.gz'
-COIN_NAME='Rupaya'
-COIN_PORT=9020
+CONFIG_FILE='hempcoin.conf'
+CONFIGFOLDER='/root/.hempcoin'
+COIN_DAEMON='/usr/local/bin/hempcoind'
+COIN_CLI='/usr/local/bin/hempcoin-cli'
+COIN_REPO='https://github.com/hempcoin-project/hempcoin/releases/download/v.4.1.0/hempcoin-4.1.0-x86_64-linux.tar.gz'
+COIN_NAME='Hempcoin'
+COIN_PORT=25777
 
 
 NODEIP=$(curl -s4 icanhazip.com)
@@ -26,7 +26,7 @@ function compile_node() {
   COIN_ZIP=$(echo $COIN_REPO | awk -F'/' '{print $NF}')
   tar xvzf $COIN_ZIP >/dev/null 2>&1
   compile_error
-  cp rupaya* /usr/local/bin
+  cp hempcoin* /usr/local/bin
   compile_error
   strip $COIN_DAEMON $COIN_CLI
   cd -
@@ -129,8 +129,8 @@ rpcallowip=127.0.0.1
 listen=1
 server=1
 daemon=1
-addnode=dns.rupx.io
-addnode=rupx.seeds.mn.zone
+addnode=dns.hempcoin.org
+addnode=dns1.hempcoin.org
 port=$COIN_PORT
 EOF
 }

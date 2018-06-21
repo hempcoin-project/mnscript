@@ -1,11 +1,11 @@
-# Rupaya
+# Hempcoin
 Shell script to install a [Hempcoin Masternode](http://www.hempcoin.org/) on a Linux server running Ubuntu 14.04 or 16.04. Use it on your own risk.
 
 ***
 ## Installation:
 ```
 wget -q https://raw.githubusercontent.com/hempcoin-project/mnscript/master/hempcoin_install.sh
-bash rupaya_install.sh
+bash hempcoin_install.sh
 ```
 ***
 

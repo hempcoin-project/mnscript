@@ -1,10 +1,10 @@
 # Rupaya
-Shell script to install a [Rupaya Masternode](http://www.rupx.io/) on a Linux server running Ubuntu 14.04 or 16.04. Use it on your own risk.
+Shell script to install a [Hempcoin Masternode](http://www.hempcoin.org/) on a Linux server running Ubuntu 14.04 or 16.04. Use it on your own risk.
 
 ***
 ## Installation:
 ```
-wget -q https://raw.githubusercontent.com/rupaya-project/mnscript/master/rupaya_install.sh
+wget -q https://raw.githubusercontent.com/hempcoin-project/mnscript/master/hempcoin_install.sh
 bash rupaya_install.sh
 ```
 ***
@@ -14,7 +14,7 @@ bash rupaya_install.sh
 After the MN is up and running, you need to configure the desktop wallet accordingly. Here are the steps for Windows Wallet
 1. Open the Rupaya Coin Desktop Wallet.
 2. Go to RECEIVE and create a New Address: **MN1**
-3. Send **10000** **Rupaya** to **MN1**.
+3. Send **50000** **Hempcoin** to **MN1**.
 4. Wait for 15 confirmations.
 5. Go to **Tools -> "Debug console - Console"**
 6. Type the following command: **masternode outputs**
@@ -39,25 +39,25 @@ startmasternode "alias" "0" "MN1"
 
 ## Usage:
 ```
-rupaya-cli mnsync status
-rupaya-cli getinfo
-rupaya-cli masternode status
+hempcoin-cli mnsync status
+hempcoin-cli getinfo
+hempcoin-cli masternode status
 ```
 
-Also, if you want to check/start/stop **Rupaya** , run one of the following commands as **root**:
+Also, if you want to check/start/stop **Hempcoin** , run one of the following commands as **root**:
 
 **Ubuntu 16.04**:
 ```
-systemctl status Rupaya #To check the service is running.
-systemctl start Rupaya #To start Rupaya service.
-systemctl stop Rupaya #To stop Rupaya service.
-systemctl is-enabled Rupaya #To check whetether Rupaya service is enabled on boot or not.
+systemctl status Hempcoin #To check the service is running.
+systemctl start Hempcoin #To start Hempcoin service.
+systemctl stop Hempcoin #To stop Hempcoin service.
+systemctl is-enabled Hempcoin #To check whetether Hempcoin service is enabled on boot or not.
 ```
 **Ubuntu 14.04**:  
 ```
-/etc/init.d/rupaya start #To start Rupaya service
-/etc/init.d/rupaya stop #To stop Rupaya service
-/etc/init.d/rupaya restart #To restart Rupaya service
+/etc/init.d/hempcoin start #To start Hempcoin service
+/etc/init.d/hempcoin stop #To stop Hempcoin service
+/etc/init.d/hempcoin restart #To restart Hempcoin service
 ```
 
 ***

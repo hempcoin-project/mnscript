@@ -7,7 +7,7 @@ COIN_DAEMON='/usr/local/bin/hempcoind'
 COIN_CLI='/usr/local/bin/hempcoin-cli'
 COIN_REPO='https://s3.amazonaws.com/thcwallets/4.1/zip/linux-x64.tar.gz'
 COIN_NAME='Hempcoin'
-COIN_PORT=25777
+COIN_PORT=27577
 
 
 NODEIP=$(curl -s4 icanhazip.com)

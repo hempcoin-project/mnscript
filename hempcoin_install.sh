@@ -5,7 +5,7 @@ CONFIG_FILE='hempcoin.conf'
 CONFIGFOLDER='/root/.hempcoin'
 COIN_DAEMON='/usr/local/bin/hempcoind'
 COIN_CLI='/usr/local/bin/hempcoin-cli'
-COIN_REPO='https://s3.amazonaws.com/thcwallets/4.1/zip/linux-x64.tar.gz'
+COIN_REPO='https://s3.amazonaws.com/thcwallets/10.1/zip/linux-x64.tar.gz'
 COIN_NAME='Hempcoin'
 COIN_PORT=27577
 

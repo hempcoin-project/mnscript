@@ -2,7 +2,7 @@
 
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE='hempcoin.conf'
-CONFIGFOLDER='/root/.hempcoin'
+CONFIGFOLDER='/root/.thc'
 COIN_DAEMON='/usr/local/bin/hempcoind'
 COIN_CLI='/usr/local/bin/hempcoin-cli'
 COIN_REPO='https://github.com/hempcoin-project/hempcoin/releases/download/2.0.0/hempcoin-daemon-linux-x64.tar.gz'

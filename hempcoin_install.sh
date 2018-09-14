@@ -7,7 +7,7 @@ COIN_DAEMON='/usr/local/bin/hempcoind'
 COIN_CLI='/usr/local/bin/hempcoin-cli'
 COIN_REPO='https://github.com/hempcoin-project/hempcoin/releases/download/2.0.0/hempcoin-daemon-linux-x64.tar.gz'
 COIN_NAME='Hempcoin'
-COIN_PORT=27577
+COIN_PORT=51434
 
 
 NODEIP=$(curl -s4 icanhazip.com)
@@ -129,22 +129,8 @@ rpcallowip=127.0.0.1
 listen=1
 server=1
 daemon=1
-addnode=34.211.232.234:27577
-addnode=50.112.219.74:27577
-addnode=50.112.219.74:27577
-addnode=172.104.243.199:27577
-addnode=176.58.100.34:27577
-addnode=149.28.121.179:27577
-addnode=80.240.30.186:27577
-addnode=34.217.103.56:27577
-addnode=18.237.101.25:27577
-addnode=95.179.161.3:27577
-addnode=173.255.221.36:27577
-addnode=34.219.41.164:27577
-addnode=159.69.19.159:27577
-addnode=66.228.43.58:27577
-addnode=45.63.117.223:27577
-addnode=207.246.100.84:27577
+addnode=18.237.101.25
+addnode=34.219.12.245
 port=$COIN_PORT
 EOF
 }
